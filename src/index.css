@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { 
+  --main_color:#1e1e28;
+  --primary_color:#ca8a04;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #191923; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+.citiyValue{
+  color:#8c8c8e;
+  font-weight: 600;
+}
+
+.main{
+  background-color: var(--main_color);
+}
+ 
+.divide_line{
+  background: #646466;
+  width: 100%;
+  height: 1px;
+  opacity: 0.3;
+}
+ 
+.art_header{
+  height: 235px;
+  /* background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%); */
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+}
+
+.p-15-15 {
+  padding: 240px 0 20px;
+}
+/* cicle animate */ 
+
+.circle-wrap { 
+  width: 54px;
+  height: 54px;
+  /* background: var(--main_color); */
+  border-radius: 50%; 
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 54px, 54px, 22px); 
+}
+
+/* .circle-wrap .circle .mask {
+  clip: rect(0px, 54px, 54px, 22px);
+} */
+
+.circle-wrap .inside-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* background: #1e1e28; */
+  line-height: 45px;
+  text-align: center;
+  margin-top: .3rem;
+  margin-left: .3rem; 
+  position: absolute;
+  z-index: 100; 
+  font-size: .8em;
+}
+
+/* color animation */
+
+/* 3rd progress bar */
+.mask .fill {
+  clip: rect(0px, 40px, 54px, 0px);
+  background-color: var(--primary_color);
+}
+
+
+.mask2 .fill2 {
+  clip: rect(0px, 22px, 54px, 0px);
+  background-color: var(--primary_color);
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 1s;
+  transform: rotate(135deg);
+}
+.color{
+  position: absolute;
+  background-color: var(--primary_color); 
+  height: 5px;  
+  animation: progres1 ease-in 4s;  
+}
+.color[data-width="90"]{
+  width: 90%;
+}
+.color[data-width="60"]{
+  width: 60%; 
+}
+.color[data-width="80"]{
+  width: 80%; 
+}
+.color[data-width="70"]{
+  width: 70%; 
+}
+
+/* content css */
+
+.art-top-bg-overlay { 
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 40, 0.93)), color-stop(70%, rgba(30, 30, 40, 0.96)), color-stop(80%, rgba(30, 30, 40, 0.99)), to(#1e1e28));
+}
+
+.art-top-bg-overlay2 {
+  opacity: 0.6;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 63, 0.93)), color-stop(70%, rgba(69, 69, 83, 0.96)), color-stop(80%, rgba(84, 84, 88, 0.99)), to(#5a5a69));
+}
+
+.back-banner{
+  background-color: rgba(30, 30, 40, 0.88);
+}
+
+.profile-pic{
+  /* height: 48vmin;
+  top: -111px;
+  right: 1px; */ 
+  right: 30px;
+  bottom: 0;
+  right: 1px; 
+  height: 450px;
+}
+ 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #f7f4ed;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: var(--primary_color);
+  border-radius: 100vh;
+  border: 3px solid #f6f7ed;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #c0a0b9;
+}
+
+
+@keyframes fill{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes progres1{
+  0%{
+    width: 0%;
+  }
+  50%{
+      width: 100%;
+  }
+};
