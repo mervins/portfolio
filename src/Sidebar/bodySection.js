@@ -1,6 +1,7 @@
 import {data} from '../data/info.js'; 
 import '../index.css';
-import FrameworkSection from '../Main/frameworkSection.js';
+import FrameworkSection from '../Main/frameworkSection.js'; 
+import ProjectSection from '../Main/projectSection.js';
 const BodySection = ()=>{ 
     return(
         <>  
@@ -9,7 +10,7 @@ const BodySection = ()=>{
                 {
                     data.location.map((item,index)=>{
                         return(<div key={index} className='flex justify-between items-center mt-2'>
-                            <div key={item.name} className='address font-bold text-xs mt-2'>{item.name}</div>
+                            <div key={item.name} className='address text-xs mt-2'>{item.name}</div>
                             <div key={item.value} className='citiyValue text-xs'>{item.value}</div>
                         </div>)
                     })
@@ -18,6 +19,8 @@ const BodySection = ()=>{
                 <div className='block md:hidden'> 
                     <div className='divide_line my-2'></div>
                     <FrameworkSection/>
+                    <div className='divide_line my-2'></div>
+                    <ProjectSection/>
                 </div>
                 <div className='divide_line my-2'></div>
                 <div className='mt-8 flex gap-8 items-center justify-center mb-8'>
@@ -33,10 +36,10 @@ const BodySection = ()=>{
                                         <div className="mask half">
                                             <div className="fill"></div>
                                         </div>
-                                        <div className="inside-circle bg-slate-50 dark:bg-[#1e1e28] text-[#1e1e28] dark:text-white font-extrabold"> {item.percentage} </div>
+                                        <div className="inside-circle bg-slate-50 dark:bg-[#1e1e28] text-[#1e1e28] dark:text-white font-bold"> {item.percentage} </div>
                                         </div>
                                     </div> 
-                                    <div className='font-bold text-xs '>{item.name}</div>
+                                    <div className='text-xs '>{item.name}</div>
                                 </div>
                             )
                         })
@@ -49,10 +52,10 @@ const BodySection = ()=>{
                             return(
                                 <div key={index} className='flex flex-col mt-6'>
                                     <div className='flex justify-between'>
-                                        <div className='font-bold text-xs'>
+                                        <div className='text-xs'>
                                             {item.name}
                                         </div>
-                                        <div className='text-xs font-bold dark:font-medium'>
+                                        <div className='text-xs dark:font-medium'>
                                             {item.percentage} %
                                         </div>
                                     </div>
@@ -69,7 +72,7 @@ const BodySection = ()=>{
                 {
                     data.cascade.map((item,index)=>{
                         return(
-                            <div key={index} className='mt-3 flex gap-2 font-semibold text-xs'>
+                            <div key={index} className='mt-3 flex gap-2 text-xs'>
                                 <span className='text-yellow-500'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />

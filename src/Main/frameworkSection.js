@@ -3,22 +3,26 @@ import { data } from "../data/info"
 const FrameworkSection = ()=>{
     return(<>
         <div className='mt-8 text-[#1e1e28] dark:text-white'>
-            <div className=' text-lg font-bold font-mono mb-4'>Frameworks & Libraries</div>
-            {/* <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto overflow-y-hidden'> 
-              */}
+            <div className=' text-lg font-bold font-mono mb-4'>Frameworks & Libraries</div> 
             <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar'>
               {
                 data.framwork.map((item,index)=>{
                   return(
-                    <div key={index} className='bg-slate-100 dark:bg-[#2d2d39] h-52 max-h-fit rounded-md relative p-4 box-border grow '>
-                      <div className=' font-bold font-mono mb-2 text-[18px]'>
-                        {item.title}
-                      </div>
-                      <div className=" text-[14px] min-w-48 md:min-w-[340px] w-52 md:min-w-[350px] flex justify-content items-center">
-                        <p className="line-clamp-6 font-bold">
-                          {item.desc}
-                        </p>
-                      </div>
+                    <div key={index} className='bg-slate-100 dark:bg-[#2d2d39] max-h-fit rounded-md relative box-border grow h-28 md:h-28 flex items-center gap-4'>
+                   
+                        <div className="w-20 h-20 rounded-full p-2">
+                            <img src={item.img}/>
+                        </div>
+                        <div>
+                          <div className=' font-bold font-mono mb-2 text-[18px]'>
+                            {item.title}
+                          </div>
+                          <div className=" text-[13px] min-w-48 md:min-w-[340px] w-[300px] md:min-w-[450px] flex justify-content items-center">
+                            <p className="line-clamp-8">
+                              {item.desc}
+                            </p>
+                          </div>
+                        </div> 
                     </div> 
                   )
                 })

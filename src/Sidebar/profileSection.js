@@ -6,14 +6,14 @@ const ProfileSection = ()=>{
     let profile = data.profile.map((item,index)=>{
         return (
             <div className={item.class} key={index}> 
-                <div className='font-extrabold'>{item.name}</div> 
+                <div className=''>{item.name}</div> 
             </div>
         )
     })
     return(
         <>
             <div className="art_header bg-slate-200/95 dark:bg-[#242430]/[99%] flex flex-col justify-content items-center">
-                <div className='font-bold absolute left-2 top-2 w-10 h-6 flex items-center justify-between bg-white dark:bg-[#4b4b66] rounded-full cursor-pointer' 
+                <div className=' absolute left-2 top-2 w-10 h-6 flex items-center justify-between bg-white dark:bg-[#4b4b66] rounded-full cursor-pointer' 
                     onClick={()=>{toggleDarkMode();}}>
                     <div className={isDarkMode ? 'opacity-100 duration-500 transition-all text-white pl-2' : 'opacity-0 duration-500 transition-all -pl-3'}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
