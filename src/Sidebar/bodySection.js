@@ -2,6 +2,7 @@ import {data} from '../data/info.js';
 import '../index.css';
 import FrameworkSection from '../Main/frameworkSection.js'; 
 import ProjectSection from '../Main/projectSection.js';
+import ExperienceSection from '../Main/experienceSection.js';
 const BodySection = ()=>{ 
     return(
         <>  
@@ -21,6 +22,8 @@ const BodySection = ()=>{
                     <FrameworkSection/>
                     <div className='divide_line my-2'></div>
                     <ProjectSection/>
+                    <div className='divide_line my-2'></div>
+                    <ExperienceSection/>
                 </div>
                 <div className='divide_line my-2'></div>
                 <div className='mt-8 flex gap-8 items-center justify-center mb-8'>

@@ -139,25 +139,25 @@ export const  data = {
     ],
     experience:[
         {
-            year:'June 12, 2014',
+            year:'November 05, 2013',
             title:'College',
-            course:'BSIT',
+            course:'Bachelor of Information Technology',
             profile:["COMSOC Officer, PineapplePy Volunteer - Python community"]
         },
         {
-            year:'June 12, 2014',
+            year:'December 08, 2017',
             title:'Intern',
-            course:'BSIT',
+            course:'Bachelor of Information Technology ',
             profile:["Frappe"]
         },
         {
-            year:'June 12, 2014',
+            year:'March 19, 2018',
             title:'College',
-            course:'BSIT',
-            profile:["COMSOC Officer, PineapplePy Volunteer - Python community"]
+            course:'Bachelor of Information Technology',
+            profile:["Graduate"]
         },
         {
-            year:'June 12, 2014',
+            year:'July 12, 2018 - Present',
             title:'Employed',
             course:'Software Developer',
             profile:["Laravel, Vue, Flutter"]
