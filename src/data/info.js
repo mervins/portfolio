@@ -57,23 +57,32 @@ export const  data = {
             }
         ],
     language:[
-            {
-                name:"html",
-                percentage:"90"
-            },
-            {
-                name:"CSS",
-                percentage:"60"
-            },
-            {
-                name:"js",
-                percentage:"80"
-            },
-            {
-                name:"php",
-                percentage:"70"
-            }
-        ],
+        {
+            name:"JavaScript (ES6)"
+        },
+        {
+            name:"html",
+            percentage:"90"
+        },
+        {
+            name:"CSS",
+            percentage:"60"
+        }, 
+        {
+            name:"php",
+            percentage:"70"
+        },
+        {
+            name:"python",
+            percentage:"70"
+        },
+        {
+            name:"Java"
+        },
+        {
+            name:"Dart"
+        }
+    ],
     company_projects:[
         {
             title:'Express',
@@ -115,7 +124,7 @@ export const  data = {
     cascade:["Bootstrap","Tailwind","Git knowledge"],
     framwork:[
         {
-            title:'Larvel',
+            title:'Laravel',
             desc:'Laravel are the main framework that we used in our development a side from that laravel are more efficient, open source, MVC support, greate security and etc..',
             img:laravel
         },
@@ -139,28 +148,28 @@ export const  data = {
     ],
     experience:[
         {
-            year:'November 05, 2013',
+            year:'June 06, 2008',
+            title:'Secondary School',
+            course:'NOTRE DAME OF UPI at Nuro, Upi Maguindanao',
+            location:["COMSOC Officer, PineapplePy Volunteer - Python community"]
+        },
+        {
+            year:'November 05, 2013 - 2018',
             title:'College',
-            course:'Bachelor of Information Technology',
-            profile:["COMSOC Officer, PineapplePy Volunteer - Python community"]
+            course:'Bukidnon State University at Malaybalay City, Bukidnon took Bachelor of Information Technology',
+            location:["Graduate"]
         },
         {
             year:'December 08, 2017',
-            title:'Intern',
-            course:'Bachelor of Information Technology ',
-            profile:["Frappe"]
-        },
-        {
-            year:'March 19, 2018',
-            title:'College',
-            course:'Bachelor of Information Technology',
-            profile:["Graduate"]
-        },
+            title:'Internship',
+            course:'Bai Web & Mobile Lab at Cagayan de Oro as a software developer ',
+            location:["Frappe"]
+        }, 
         {
             year:'July 12, 2018 - Present',
-            title:'Employed',
-            course:'Software Developer',
-            profile:["Laravel, Vue, Flutter"]
+            title:'Occupation',
+            course:'Currently working at Split Second Software Services as software developer',
+            location:["Laravel, Vue, Flutter"]
         }
     ]
     

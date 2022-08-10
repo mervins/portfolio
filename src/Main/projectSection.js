@@ -3,7 +3,7 @@ import { data } from "../data/info"
 const ProjectSection = ()=>{
     return(<>
         <div className='mt-8'>
-              <div className='text-[#1e1e28] dark:text-white text-lg font-bold font-mono mb-0 md:mb-4'>Projects </div>
+              <div className='text-[#1e1e28] dark:text-white text-lg font-bold font-mono mb-0 md:mb-4 text-white pl-2 mb-6 text-xl flex justify-center'>Projects </div>
               <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar'>  
                   {
                     data.company_projects.map((item,index)=>{

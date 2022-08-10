@@ -1,6 +1,8 @@
 
 import profilePic from '../img/profilePic.png'; 
 import bg from '../img/bg.jpg';
+import resume from '../img/Resume.pdf';
+import { saveAs } from "file-saver";
 const BannerSection = ()=>{
     const myStyle2={
         backgroundImage: `url(${bg})`,
@@ -8,6 +10,9 @@ const BannerSection = ()=>{
         height: '350px',
         backgroundPosition: 'center',
         backgroundSize: 'cover', 
+    };
+    const onDownload3 = () => {
+      saveAs(resume, "Resume.pdf");
     };
     return(
         <>  
@@ -38,7 +43,7 @@ const BannerSection = ()=>{
                   <span className='ml-1'>&gt;</span>
                 </div>
                 <div className='mt-4'>
-                  <button className="rounded-lg bg-yellow-500 text-white p-2 text-sm">Download CV</button>
+                  <button className="rounded-lg bg-yellow-500 text-white p-2 text-sm w-28" onClick={onDownload3}>Resume</button>
                 </div>
                 </div>
                 <div>

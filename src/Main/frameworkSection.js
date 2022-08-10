@@ -3,7 +3,7 @@ import { data } from "../data/info"
 const FrameworkSection = ()=>{
     return(<>
         <div className='mt-8 text-[#1e1e28] dark:text-white'>
-            <div className=' text-lg font-bold font-mono mb-4'>Frameworks & Libraries</div> 
+            <div className=' text-lg font-bold font-mono mb-4 text-white pl-2 mb-6 text-xl flex justify-center'>Frameworks & Libraries</div> 
             <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar'>
               {
                 data.framwork.map((item,index)=>{

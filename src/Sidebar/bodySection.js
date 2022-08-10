@@ -3,6 +3,7 @@ import '../index.css';
 import FrameworkSection from '../Main/frameworkSection.js'; 
 import ProjectSection from '../Main/projectSection.js';
 import ExperienceSection from '../Main/experienceSection.js';
+import AboutMe from '../Main/AboutMe.js';
 const BodySection = ()=>{ 
     return(
         <>  
@@ -18,6 +19,8 @@ const BodySection = ()=>{
                 }  
                 </div>
                 <div className='block md:hidden'> 
+                    <div className='divide_line my-2'></div>
+                    <AboutMe/>
                     <div className='divide_line my-2'></div>
                     <FrameworkSection/>
                     <div className='divide_line my-2'></div>
@@ -49,22 +52,25 @@ const BodySection = ()=>{
                     } 
                     </div>
                 <div className='divide_line'></div>
-                <div className=' mt-8 mb-8'>
+                <div className='mt-4 flex justify-center items-center'>Programming Languages</div>
+                <div className='mb-8 flex flex-wrap'>
                     {
                         data.language.map((item,index)=>{
                             return(
-                                <div key={index} className='flex flex-col mt-6'>
+                                <div key={index} className='flex flex-col mt-2 mx-1'>
                                     <div className='flex justify-between'>
-                                        <div className='text-xs'>
-                                            {item.name}
+                                        <div className='text-xs flex items-center '>
+                                            <span className='inline text-yellow-500 mr-1'><svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                            </svg></span>{item.name},
                                         </div>
-                                        <div className='text-xs dark:font-medium'>
+                                        {/* <div className='text-xs dark:font-medium'>
                                             {item.percentage} %
-                                        </div>
+                                        </div> */}
                                     </div>
-                                    <div data-width="0">
+                                    {/* <div data-width="0">
                                         <span className='color'  data-width={item.percentage}></span>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )
                         })
@@ -88,8 +94,8 @@ const BodySection = ()=>{
                     }
                 </div>
                 <div className='divide_line'></div>
-                <div className='mt-3 text-xs font-bold'>
-                    DOWNLOAD CV
+                <div className='mt-3 text-xs font-bold mb-6 cursor-pointer'>
+                    DOWNLOAD RESUME
                 </div>
                 </div>  
         </>
