@@ -32,7 +32,7 @@ useEffect(() => {
 
 useEffect(()=>{ 
    if(loadedImages.length === 5){
-    // setIsLoading(false);
+    setIsLoading(false);
    }
   console.log(loadedImages);
 },[loadedImages])
