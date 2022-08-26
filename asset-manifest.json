@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bb2d5250.css",
-    "main.js": "/portfolio/static/js/main.d4951405.js",
+    "main.css": "/portfolio/static/css/main.9de8ae59.css",
+    "main.js": "/portfolio/static/js/main.8925df97.js",
     "static/js/787.f2a0fa2f.chunk.js": "/portfolio/static/js/787.f2a0fa2f.chunk.js",
     "static/media/profilePic.png": "/portfolio/static/media/profilePic.8ef9f70c8cb5027accd1.png",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.2a9ee719951bcb21fdaa.pdf",
@@ -13,17 +13,18 @@
     "static/media/pos.png": "/portfolio/static/media/pos.faa98582ac71ef47974b.png",
     "static/media/react.png": "/portfolio/static/media/react.83b983464c8783fbc621.png",
     "static/media/impulse.png": "/portfolio/static/media/impulse.495858b09ef202912268.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.1b46642d00d985dcfcc6.png",
     "static/media/express.png": "/portfolio/static/media/express.fb103709eb575b2ae7ad.png",
     "static/media/vue.png": "/portfolio/static/media/vue.30f5565d6394ea23d3bc.png",
     "static/media/costTool.png": "/portfolio/static/media/costTool.0c8f131148f9c0e0c390.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.16f3f576ea0ad848e0d5.png",
     "index.html": "/portfolio/index.html",
-    "main.bb2d5250.css.map": "/portfolio/static/css/main.bb2d5250.css.map",
-    "main.d4951405.js.map": "/portfolio/static/js/main.d4951405.js.map",
+    "main.9de8ae59.css.map": "/portfolio/static/css/main.9de8ae59.css.map",
+    "main.8925df97.js.map": "/portfolio/static/js/main.8925df97.js.map",
     "787.f2a0fa2f.chunk.js.map": "/portfolio/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb2d5250.css",
-    "static/js/main.d4951405.js"
+    "static/css/main.9de8ae59.css",
+    "static/js/main.8925df97.js"
   ]
 }
