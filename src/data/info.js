@@ -8,6 +8,8 @@ import flutter from '../img/flutter.png';
 import react from '../img/react.png'; 
 import vue from '../img/vue.png'; 
 import pos from '../img/pos.png';
+import bg from '../img/bg.jpg'; 
+import profilePic from '../img/profilePic.jpg'; 
 
 export const  data = {
     profile:[
@@ -116,7 +118,7 @@ export const  data = {
         },
         {
             title:'Pastil Ni Babo',
-            description:' Thes project was built on Rect.JS with PHP server-side and VUE for the client side.',
+            description:' Thes project was built on Rect.JS and it`s all about food blog.',
             declaim:'',
             img:pastil,
         }
@@ -148,16 +150,10 @@ export const  data = {
     ],
     experience:[
         {
-            year:'June 06, 2008',
-            title:'Secondary School',
-            course:'NOTRE DAME OF UPI at Nuro, Upi Maguindanao',
-            location:["COMSOC Officer, PineapplePy Volunteer - Python community"]
-        },
-        {
-            year:'November 05, 2013 - 2018',
-            title:'College',
-            course:'Bukidnon State University at Malaybalay City, Bukidnon took Bachelor of Information Technology',
-            location:["Graduate"]
+            year:'July 12, 2018 - Present',
+            title:'Occupation',
+            course:'Currently working at Split Second Software Services as software developer',
+            location:["Laravel, Vue, Flutter"]
         },
         {
             year:'December 08, 2017',
@@ -166,12 +162,22 @@ export const  data = {
             location:["Frappe"]
         }, 
         {
-            year:'July 12, 2018 - Present',
-            title:'Occupation',
-            course:'Currently working at Split Second Software Services as software developer',
-            location:["Laravel, Vue, Flutter"]
-        }
-    ]
+            year:'November 05, 2013 - 2018',
+            title:'College',
+            course:'Bukidnon State University at Malaybalay City, Bukidnon took Bachelor of Information Technology',
+            location:["Graduate"]
+        },
+        {
+            year:'June 06, 2008',
+            title:'Secondary School',
+            course:'NOTRE DAME OF UPI at Nuro, Upi Maguindanao',
+            location:["COMSOC Officer, PineapplePy Volunteer - Python community"]
+        },
+        
+        
+        
+    ],
+    images:[express,impulse,costTool,pastil,implicit,laravel,flutter,react,vue,pos,bg,profilePic]
     
 }
 export const Info = ()=>{
