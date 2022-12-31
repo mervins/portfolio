@@ -3,7 +3,7 @@ import bg from '../src/img/bg.jpg';
 import Content from './Sidebar/content';
 import MainContent from './Main/main'; 
 import {useState,useEffect} from 'react';
-// import { data } from './data/info';
+import { data } from './data/info';
 
 function App() { 
   const [isLoading,setIsLoading] = useState(true); 
@@ -31,7 +31,7 @@ useEffect(() => {
 }, []);
 
 useEffect(()=>{ 
-   if(loadedImages.length === 5){
+   if(loadedImages.length === data.company_projects.length){
     setIsLoading(false);
    }
   console.log(loadedImages);
@@ -50,15 +50,11 @@ const checkImageLoaded = (url)=>{
 }
   
 const fetchImages = async()=> {
+  let images = []
+  data.company_projects.map(image=>images.push(image.img));
   return new Promise((resolve) => { 
-    setTimeout(() => {
-      resolve([
-        "https://source.unsplash.com/random/320x240",
-        "https://source.unsplash.com/random/321x241",
-        "https://source.unsplash.com/random/322x242",
-        "https://source.unsplash.com/random/323x243",
-        "https://source.unsplash.com/random/324x244"
-      ]);
+    setTimeout(() => { 
+      resolve(images);
     }, 10);
   });
 }
@@ -92,7 +88,7 @@ const fetchImages = async()=> {
       !isLoading && 
       <div className="container mx-auto  scroll-smooth hover:scroll-auto px-0 md:px-6">
       <div className="h-screen min-h-full flex flex-wrap">
-        <div className="relative my-4 rounded-l-sm  relative flex-1 min-h-max bg-slate-50 dark:bg-[#20202a] h-[95%]  w-full md:max-w-[290px]">
+        <div className="relative my-0 md:my-4 rounded-l-sm  relative flex-1 min-h-max bg-slate-50 dark:bg-[#20202a] h-full md:h-[95%]  w-full md:max-w-[290px]">
           <Content/>
         </div> 
         <div className="mt-4 mr-4 mb-4 bg-slate-100 rounded-r-sm relative flex-1 min-h-max overflow-y-auto no-scrollbar h-[95%] hidden md:block">

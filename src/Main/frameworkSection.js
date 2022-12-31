@@ -2,13 +2,13 @@
 import { data } from "../data/info"
 const FrameworkSection = ()=>{
     return(<>
-        <div className='mt-8 text-[#1e1e28] dark:text-white'>
-            <div className=' text-lg font-bold font-mono mb-4 text-white pl-2 mb-6 text-xl flex justify-center'>Frameworks & Libraries</div> 
-            <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar'>
+        <div className='mt-8 bg-slate-50 text-[#1e1e28] dark:text-white dark:bg-transparent rounded'>
+            <div className=' text-lg font-bold font-mono mb-4 pl-2 mb-6 text-xl flex justify-center'>Frameworks & Libraries</div> 
+            <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar px-2 pb-2'>
               {
                 data.framwork.map((item,index)=>{
                   return(
-                    <div key={index} className='bg-slate-100 dark:bg-[#2d2d39] max-h-fit rounded-md relative box-border grow h-28 md:h-28 flex items-center gap-4'>
+                    <div key={index} className='bg-slate-100 dark:bg-[#2d2d39] max-h-fit rounded-md relative box-border border grow h-28 md:h-28 flex items-center gap-4'>
                    
                         <div className="w-20 h-20 rounded-full p-2">
                             <img src={item.img}/>

@@ -18,7 +18,7 @@ const BannerSection = ()=>{
         <>  
             <div className='bg-slate-50 dark:bg-[#24242e] mx-12 h-8 hidden 2xl:block'>  
             </div>  
-            <div style={myStyle2} className=" relative">  
+            <div style={myStyle2} className="relative">  
                 <div className="art-top-bg-overlay2 w-full h-full relative"></div> 
                 <div className='text-white absolute top-12 mx-12'> 
                 <div className='text-[3vmin] lg:text-4xl font-sans font-bold'>

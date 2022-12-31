@@ -10,6 +10,7 @@ import vue from '../img/vue.png';
 import pos from '../img/pos.png';
 import bg from '../img/bg.jpg'; 
 import profilePic from '../img/profilePic.jpg'; 
+import timer from '../img/timer.jpg';
 
 export const  data = {
     profile:[
@@ -87,40 +88,51 @@ export const  data = {
     ],
     company_projects:[
         {
-            title:'Express',
-            description:'The app was build on Larvel Jetstream where the frontend used VUE.JS and tailwind for CSS framework.',
-            declaim:'Disclaimer: This project belongs to the company and the intention is to promote the portfolio as a part of the development.',
-            img:express,
+            id:0,
+            title:'Tie-Mer',
+            description:'This web application was built using ReactJS, Tailwind and utilizes local storage for data storage(DexieJS). It is a Progressive Web App (PWA) designed specifically for use as a timer for mountain bike enduro races. The purpose of the app is to provide a reliable and convenient timer for enduro races, allowing users to easily track and record their times.',
+            declaim:'',
+            img:timer,
         },
-        {
-            title:'Cost Tool',
-            description:'The app was built on Larvel with PHP server-side, VUE for the client side and bootstrap of css utility.',
-            declaim:'Disclaimer: This project belongs to the company and the intention is to promote the portfolio as a part of the development.',
-            img:costTool,
-        },
-        {
-            title:'Impulse',
-            description:'The app was built on Larvel with PHP server-side, VUE for the client side and bootstrap of css utility.',
-            declaim:'Disclaimer: This project belongs to the company and the intention is to promote the portfolio as a part of the development.',
-            img:impulse,
-        },
-        {
-            title:'Dr.Implicit',
-            description:'The app was built on Flutter.',
-            declaim:'Disclaimer: This project belongs to the company and the intention is to promote the portfolio as a part of the development.',
-            img:implicit,
-        },
-        {
+        {   id:1,
             title:'IDLLES Inventory',
-            description:'The app was build on React.JS for frontend, Node.JS for backend, pure css and deploy in Electron.JS (Desktop).',
+            description:'The app was built on React.JS for frontend, Node.JS for backend, pure css and deploy in Electron.JS (Desktop).',
             declaim:'The purpose I use Electron is to run the app in offline mode and stand alone.',
             img:pos,
         },
-        {
+        {    id:2,
             title:'Pastil Ni Babo',
-            description:' Thes project was built on Rect.JS and it`s all about food blog.',
+            description:' This application is created using ReactJS and pure CSS. Our blog is all about delicious and healthy food options for breakfast, lunch, and dinner. We love to mix and match different ingredients to create a wide variety of dishes for you to enjoy. We hope you find something tasty and inspiring on our blog!"',
             declaim:'',
             img:pastil,
+        },
+        {
+            id:3,
+            title:'Express',
+            description:'The app was built on Larvel Jetstream where the frontend used is VUE.JS and tailwind for CSS framework.',
+            declaim:'Disclaimer:The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:express,
+        },
+        {
+            id:4,
+            title:'Cost Tool',
+            description:'The app was built on Larvel with PHP server-side where the frontend used is VUE for the client side and bootstrap of css utility.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:costTool,
+        },
+        {
+            id:5,
+            title:'Impulse',
+            description:'The app was built on Larvel with PHP server-side where the frontend used is VUE for the client side and bootstrap of css utility.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:impulse,
+        },
+        {
+            id:6,
+            title:'Dr.Implicit',
+            description:'The app was built on Flutter.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:implicit,
         }
     ], 
     cascade:["Bootstrap","Tailwind","Git knowledge"],

@@ -26,10 +26,7 @@ code {
 .citiyValue{
   color:#8c8c8e;
 }
-
-.main{
-  /* background-color: var(--main_color); */
-}
+ 
  
 .divide_line{
   background: #646466;
@@ -143,11 +140,7 @@ code {
   opacity: 0.6; 
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 63, 0.93)), color-stop(70%, rgba(69, 69, 83, 0.96)), color-stop(80%, rgba(84, 84, 88, 0.99)), to(#5a5a69));
 }
-
-.back-banner{
-  /* background-color: rgba(30, 30, 40, 0.88); */
-}
-
+ 
 .profile-pic{
   /* height: 48vmin;
   top: -111px;
@@ -187,6 +180,13 @@ code {
 .scrollbar::-webkit-scrollbar-thumb:hover {
   background: #c0a0b9;
 }
+
+/* @media only screen and (max-width:675px) {
+  .art_header{
+    height: 235px; 
+    position: relative;
+  }
+} */
 
 
 @keyframes fill{
