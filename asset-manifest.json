@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa6ae090.css",
-    "main.js": "/portfolio/static/js/main.c09b5509.js",
+    "main.css": "/portfolio/static/css/main.af1a8c2e.css",
+    "main.js": "/portfolio/static/js/main.7afbf115.js",
     "static/js/787.f2a0fa2f.chunk.js": "/portfolio/static/js/787.f2a0fa2f.chunk.js",
+    "static/media/costTool.png": "/portfolio/static/media/costTool.8005be194113acdd5d6d.png",
+    "static/media/pastil.png": "/portfolio/static/media/pastil.f095b3912686ede7c662.png",
+    "static/media/impulse.png": "/portfolio/static/media/impulse.9f0cbfee2b5498eab70d.png",
+    "static/media/express.png": "/portfolio/static/media/express.5692491f5bf6a3052e41.png",
+    "static/media/implicit.png": "/portfolio/static/media/implicit.9d8b7f8f5f5040fdbf54.png",
     "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.80f1e916a93607b805bf.jpg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.a67ba731ecb2cdb15c24.pdf",
+    "static/media/timer.jpg": "/portfolio/static/media/timer.1479efb6d4ca729e3584.jpg",
     "static/media/bg.jpg": "/portfolio/static/media/bg.345f7c12e43e77c05d28.jpg",
     "static/media/profile.jpg": "/portfolio/static/media/profile.86ebc0f5b2f0c8211fc8.jpg",
-    "static/media/pastil.png": "/portfolio/static/media/pastil.69ad7047294684ce745d.png",
-    "static/media/implicit.png": "/portfolio/static/media/implicit.f167382ad108e2ab7b9a.png",
     "static/media/laravel.png": "/portfolio/static/media/laravel.01589b4ed81858395bc4.png",
     "static/media/pos.png": "/portfolio/static/media/pos.faa98582ac71ef47974b.png",
     "static/media/react.png": "/portfolio/static/media/react.83b983464c8783fbc621.png",
-    "static/media/impulse.png": "/portfolio/static/media/impulse.495858b09ef202912268.png",
-    "static/media/express.png": "/portfolio/static/media/express.fb103709eb575b2ae7ad.png",
     "static/media/vue.png": "/portfolio/static/media/vue.30f5565d6394ea23d3bc.png",
-    "static/media/costTool.png": "/portfolio/static/media/costTool.0c8f131148f9c0e0c390.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.16f3f576ea0ad848e0d5.png",
     "index.html": "/portfolio/index.html",
-    "main.aa6ae090.css.map": "/portfolio/static/css/main.aa6ae090.css.map",
-    "main.c09b5509.js.map": "/portfolio/static/js/main.c09b5509.js.map",
+    "main.af1a8c2e.css.map": "/portfolio/static/css/main.af1a8c2e.css.map",
+    "main.7afbf115.js.map": "/portfolio/static/js/main.7afbf115.js.map",
     "787.f2a0fa2f.chunk.js.map": "/portfolio/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa6ae090.css",
-    "static/js/main.c09b5509.js"
+    "static/css/main.af1a8c2e.css",
+    "static/js/main.7afbf115.js"
   ]
 }
