@@ -1,5 +1,5 @@
 import {data} from '../data/info.js';
-import profilePic from '../img/profile.jpg';
+import profilePic from '../img/profile.webp';
 import useDarkMode from '../hooks/useDarkMode.js';
 const ProfileSection = ()=>{
     const [isDarkMode, toggleDarkMode] = useDarkMode();

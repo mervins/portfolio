@@ -3,8 +3,15 @@ import '../index.css';
 import FrameworkSection from '../Main/frameworkSection.js'; 
 import ProjectSection from '../Main/projectSection.js';
 import ExperienceSection from '../Main/experienceSection.js';
-import AboutMe from '../Main/AboutMe.js';
+import AboutMe from '../Main/AboutMe.js'; 
+import resume from '../img/Resume.pdf';
+import { saveAs } from "file-saver";
 const BodySection = ()=>{ 
+
+    const onDownload3 = () => {
+        saveAs(resume, "Resume.pdf");
+      };
+
     return(
         <>  
             <div className="text-[#191923] dark:text-white flex-grow relative mx-8 overflow-y-auto no-scrollbar">
@@ -94,7 +101,7 @@ const BodySection = ()=>{
                     }
                 </div>
                 <div className='divide_line'></div>
-                <div className='mt-3 text-xs font-bold mb-6 cursor-pointer'>
+                <div className='mt-3 text-xs font-bold mb-6 cursor-pointer' onClick={onDownload3}>
                     DOWNLOAD RESUME
                 </div>
                 </div>  

@@ -1,6 +1,6 @@
 
-import profilePic from '../img/profilePic.jpg'; 
-import bg from '../img/bg.jpg'; 
+import profilePic from '../img/profilePic.webp'; 
+import bg from '../img/bg.webp'; 
 import resume from '../img/Resume.pdf';
 import { saveAs } from "file-saver";
 const BannerSection = ()=>{

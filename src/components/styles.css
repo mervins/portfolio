@@ -16,7 +16,7 @@
   }  
   .thumbnail-container {
     position: relative;
-    height: 120px;
+    height: 80px;
     width: 90px;     
   } 
 
@@ -57,7 +57,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 54%;
+    height: 64px;
     width: 100%;
     pointer-events: none;
     transform: scaleX(1);

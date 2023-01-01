@@ -1,16 +1,16 @@
-import express from '../img/express.png';
-import costTool from '../img/costTool.png';
-import impulse from '../img/impulse.png';
-import pastil from '../img/pastil.png'; 
-import implicit from '../img/implicit.png';
-import laravel from '../img/laravel.png';
+import express from '../img/express.webp';
+import costTool from '../img/costTool.webp';
+import impulse from '../img/impulse.webp';
+import pastil from '../img/pastil.webp'; 
+import implicit from '../img/implicit.webp';
+import laravel from '../img/laravel.webp';
 import flutter from '../img/flutter.png';
-import react from '../img/react.png'; 
+import react from '../img/react.webp'; 
 import vue from '../img/vue.png'; 
-import pos from '../img/pos.png';
-import bg from '../img/bg.jpg'; 
-import profilePic from '../img/profilePic.jpg'; 
-import timer from '../img/timer.jpg';
+import pos from '../img/pos.webp';
+import bg from '../img/bg.webp'; 
+import profilePic from '../img/profilePic.webp'; 
+import timer from '../img/timer.webp';
 
 export const  data = {
     profile:[

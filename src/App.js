@@ -1,8 +1,8 @@
 import './App.css'; 
-import bg from '../src/img/bg.jpg'; 
+import bg from '../src/img/bg.webp'; 
 import Content from './Sidebar/content';
 import MainContent from './Main/main'; 
-import {useState,useEffect} from 'react';
+import {useState,useEffect,useMemo} from 'react';
 import { data } from './data/info';
 
 function App() { 
@@ -21,9 +21,8 @@ function App() {
 }; 
 useEffect(() => {
   fetchImages().then((data) => {
-    console.log(data);
     let newArray = []
-    data.map((item,index)=>{
+    data.map((item)=>{
      checkImageLoaded(item);
     });
     console.log(newArray)
@@ -49,7 +48,7 @@ const checkImageLoaded = (url)=>{
   
 }
   
-const fetchImages = async()=> {
+const fetchImages = ()=> {
   let images = []
   data.company_projects.map(image=>images.push(image.img));
   return new Promise((resolve) => { 
