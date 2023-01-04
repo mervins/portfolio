@@ -54,11 +54,11 @@ const Carousel = () => {
 
   return (
     <main>
-      <div className="hidden md:flex">
+      <div className="hidden md:flex gap-[4px]">
         {data.company_projects.map(image => (
           <div key={image.id} onClick={() => skipToImage(image.id)} className="thumbnail-container">
-            <img src={image.img} alt="Projects"/>
-            <div className={`active-indicator ${image.id === activeImageIndex ? "active-indicatorako" : "text-white"}`}></div>
+            <img src={image.img} alt="Projects" className="rounded-lg"/>
+            <div className={`active-indicator ${image.id === activeImageIndex ? "active-indicatorako rounded-lg" : "text-white"}`}></div>
           </div>
         ))}
       </div>

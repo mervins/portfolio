@@ -62,21 +62,13 @@ export const  data = {
     language:[
         {
             name:"JavaScript (ES6)"
-        },
-        {
-            name:"html",
-            percentage:"90"
-        },
-        {
-            name:"CSS",
-            percentage:"60"
         }, 
         {
-            name:"php",
+            name:"PHP",
             percentage:"70"
         },
         {
-            name:"python",
+            name:"Python",
             percentage:"70"
         },
         {
@@ -84,7 +76,15 @@ export const  data = {
         },
         {
             name:"Dart"
-        }
+        },
+        {
+            name:"HTML (markup languages)",
+            percentage:"90"
+        },
+        {
+            name:"CSS (stylesheet languages)",
+            percentage:"60"
+        }, 
     ],
     company_projects:[
         {
@@ -96,7 +96,7 @@ export const  data = {
         },
         {   id:1,
             title:'IDLLES Inventory',
-            description:'The app was built on React.JS for frontend, Node.JS for backend, pure css and deploy in Electron.JS (Desktop).',
+            description:'The app was built on React.JS for frontend, Node.JS for backend, pure css and deploy in Electron.JS (Desktop). This inventory management system is a software application that helps businesses track and manage their inventory levels. It allows companies to accurately track the quantity, location, and status of products or materials, and can be used to optimize the ordering and stocking of items.',
             declaim:'The purpose I use Electron is to run the app in offline mode and stand alone.',
             img:pos,
         },

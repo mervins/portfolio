@@ -21,29 +21,30 @@ const BannerSection = ()=>{
             <div style={myStyle2} className="relative">  
                 <div className="art-top-bg-overlay2 w-full h-full relative"></div> 
                 <div className='text-white absolute top-12 mx-12'> 
-                <div className='text-[3vmin] lg:text-4xl font-sans font-bold'>
-                  Find all about my Amazing <br/>Art Lab!
+                <div className='text-[3vmin] lg:text-4xl font-sans font-bold w-[70%]'>
+                  {/* Find all about my Amazing <br/>Art Lab! */}
+                  Sharing knowledge and experience through my work
                 </div>
-                <div className='mt-8 text-md block'>
-                  <span className='mr-1'>&lt;</span>
+                <div className='mt-8 text-md block text-[2vmin]'>
+                  <span className=''>&lt;</span>
                   <span className='text-yellow-500'> code </span>
-                  <span className='ml-1'>&gt;</span>
-                    <span className='mx-1'> I build web applications</span>
-                  <span className='mr-1'>&lt;</span>/
+                  <span className=''>&gt;</span>
+                    <span className=''> I build web applications</span>
+                  <span className=''>&lt;</span>/
                   <span className='text-yellow-500'> code </span>
-                  <span className='ml-1'>&gt;</span>
+                  <span className=''>&gt;</span>
                 </div>
-                <div className='mt-2 text-md block'>
-                  <span className='mr-1'>&lt;</span>
+                <div className='mt-2 text-md block text-[2vmin]'>
+                  <span className=''>&lt;</span>
                   <span className='text-yellow-500'> code </span>
-                  <span className='ml-1'>&gt;</span>
-                    <span className='mx-1'> I build mobile applications</span>
-                  <span className='mr-1'>&lt;</span>/
+                  <span className=''>&gt;</span>
+                    <span className=''> I build mobile applications</span>
+                  <span className=''>&lt;</span>/
                   <span className='text-yellow-500'> code </span>
-                  <span className='ml-1'>&gt;</span>
+                  <span className=''>&gt;</span>
                 </div>
                 <div className='mt-4'>
-                  <button className="rounded-lg bg-yellow-500 text-white p-2 text-sm w-28" onClick={onDownload3}>Resume</button>
+                  <button className="rounded-lg bg-yellow-500 text-white p-2 text-sm w-auto" onClick={onDownload3}>Download Resume</button>
                   {/* <a href="https://mervins.github.io/" className="rounded-lg bg-yellow-500 text-white p-2 text-sm w-28">Resume</a> */}
                 </div>
                 </div>
