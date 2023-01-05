@@ -97,7 +97,7 @@ export const  data = {
         {   id:1,
             title:'IDLLES Inventory',
             description:'The app was built on React.JS for frontend, Node.JS for backend, pure css and deploy in Electron.JS (Desktop). This inventory management system is a software application that helps businesses track and manage their inventory levels. It allows companies to accurately track the quantity, location, and status of products or materials, and can be used to optimize the ordering and stocking of items.',
-            declaim:'The purpose I use Electron is to run the app in offline mode and stand alone.',
+            declaim:'The reason for using Electron in this case is to enable the app to run in offline mode and as a standalone application.',
             img:pos,
         },
         {    id:2,
@@ -109,28 +109,28 @@ export const  data = {
         {
             id:3,
             title:'Express',
-            description:'The app was built on Larvel Jetstream where the frontend used is VUE.JS and tailwind for CSS framework.',
-            declaim:'Disclaimer:The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            description:'The app was constructed using Laravel Jetstream, with Vue.js as the frontend and Tailwind for the CSS framework.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
             img:express,
         },
         {
             id:4,
             title:'Cost Tool',
-            description:'The app was built on Larvel with PHP server-side where the frontend used is VUE for the client side and bootstrap of css utility.',
+            description:'The app was built using Laravel with PHP on the server-side, and Vue on the client side for the frontend. Bootstrap was used as a CSS utility.',
             declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
             img:costTool,
         },
         {
             id:5,
             title:'Impulse',
-            description:'The app was built on Larvel with PHP server-side where the frontend used is VUE for the client side and bootstrap of css utility.',
+            description:'The app was built using Laravel with PHP on the server-side, and Vue on the client side for the frontend. Bootstrap was used as a CSS utility.',
             declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
             img:impulse,
         },
         {
             id:6,
             title:'Dr.Implicit',
-            description:'The app was built on Flutter.',
+            description:'The app was developed using the Flutter framework.',
             declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
             img:implicit,
         }
@@ -170,13 +170,13 @@ export const  data = {
         {
             year:'December 08, 2017',
             title:'Internship',
-            course:'Bai Web & Mobile Lab at Cagayan de Oro as a software developer ',
+            course:'Bai Web & Mobile Lab at Cagayan de Oro as a python developer ',
             location:["Frappe"]
         }, 
         {
             year:'November 05, 2013 - 2018',
             title:'College',
-            course:'Bukidnon State University at Malaybalay City, Bukidnon took Bachelor of Information Technology',
+            course:'Bachelor of Information Technology program at Bukidnon State University in Malaybalay City, Bukidnon, was completed.',
             location:["Graduate"]
         },
         {

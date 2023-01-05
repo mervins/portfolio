@@ -53,8 +53,8 @@ const Carousel = () => {
   }
 
   return (
-    <main>
-      <div className="hidden md:flex gap-[4px]">
+    <div className="w-full relative">
+      <div className="hidden md:flex gap-[4px] flex justify-center">
         {data.company_projects.map(image => (
           <div key={image.id} onClick={() => skipToImage(image.id)} className="thumbnail-container">
             <img src={image.img} alt="Projects" className="rounded-lg"/>
@@ -105,7 +105,7 @@ const Carousel = () => {
           </AnimatePresence>
         </div>  
       </div> 
-    </main>
+    </div>
   )
 }
 

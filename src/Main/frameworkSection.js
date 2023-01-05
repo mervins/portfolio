@@ -4,7 +4,7 @@ const FrameworkSection = ()=>{
     return(<>
         <div className='mt-8 bg-slate-50 text-[#1e1e28] dark:text-white dark:bg-transparent rounded'>
             <div className=' text-lg font-bold font-mono mb-4 pl-2 mb-6 text-xl flex justify-center'>Frameworks & Libraries</div> 
-            <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar px-2 pb-2'>
+            <div className='flex gap-2 flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar px-2 pb-2 w-full'>
               {
                 data.framwork.map((item,index)=>{
                   return(
@@ -17,7 +17,7 @@ const FrameworkSection = ()=>{
                           <div className=' font-bold font-mono mb-2 text-[18px]'>
                             {item.title}
                           </div>
-                          <div className=" text-[13px] min-w-48 md:min-w-[340px] w-[300px] md:min-w-[450px] flex justify-content items-center">
+                          <div className="text-[2vmin] w-[300px] md:w-full flex justify-content items-center">
                             <p className="line-clamp-8">
                               {item.desc}
                             </p>
