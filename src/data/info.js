@@ -171,7 +171,7 @@ export const  data = {
             location:["Laravel, Vue, Flutter"]
         },
         {
-            year:'December 08, 2017',
+            year:'November 08, 2017 - Feburary 10, 2018',
             title:'Internship',
             course:'Bai Web & Mobile Lab at Cagayan de Oro as a python developer ',
             location:["Frappe"]

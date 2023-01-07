@@ -20,11 +20,11 @@ const ProjectSection = ()=>{
                               {item.declaim}
                             </div>
                           </div> */}
-                            <div className="relative w-full grid grid-cols-3 md:grid-cols-8 gap-0 md:gap-5 border p-2 md:p-0">
+                            <div className="relative w-full grid grid-cols-3 md:grid-cols-3 lg:grid-cols-8 gap-0 md:gap-0 lg:gap-5 border p-2 md:p-0">
                                 <div className="col-span-3">
-                                    <img className='w-86 h-64 transition ease-in-out duration-500 group-hover:scale-110 delay-150 z-0 object-cover' src={item.img} /> 
+                                    <img className='w-86 h-full transition ease-in-out duration-500 group-hover:scale-110 delay-150 z-0 object-cover' src={item.img} /> 
                                 </div>
-                                <div className="col-span-5"> 
+                                <div className="col-span-5 p-2"> 
                                 <div className='mt-5 font-bold text-lg'>{item.title}</div>
                                 <div className='text-[12px] mt-2'>
                                     {item.description}

@@ -14,7 +14,7 @@ const BodySection = ()=>{
 
     return(
         <>  
-            <div className="text-[#191923] dark:text-white flex-grow relative mx-8 overflow-y-auto no-scrollbar">
+            <div className="text-[#191923] dark:text-white flex-grow relative mx-8 overflow-y-auto no-scrollbar pb-12">
                 <div className="p-15-15 mt-2 text-sm"> 
                 {
                     data.location.map((item,index)=>{

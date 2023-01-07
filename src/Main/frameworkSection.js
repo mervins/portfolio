@@ -8,12 +8,13 @@ const FrameworkSection = ()=>{
               {
                 data.framwork.map((item,index)=>{
                   return(
-                    <div key={index} className='bg-slate-100 dark:bg-[#2d2d39] max-h-fit rounded-md relative box-border border grow h-28 md:h-28 flex items-center gap-4'>
+                    <div key={index} className='bg-slate-100 dark:bg-[#2d2d39] max-h-fit rounded-md relative box-border border grow 
+                    h-28 md:h-full lg:h-28 flex flex-row md:flex-col lg:flex-row items-center gap-4 md:gap-1 lg:gap-4'>
                    
                         <div className="w-20 h-20 rounded-full p-2">
                             <img src={item.img}/>
                         </div>
-                        <div>
+                        <div className="p-1 md:p-4">
                           <div className=' font-bold font-mono mb-2 text-[18px]'>
                             {item.title}
                           </div>

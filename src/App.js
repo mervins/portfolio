@@ -85,7 +85,7 @@ const fetchImages = ()=> {
     }
     {
       !isLoading && 
-      <div className="container mx-auto  scroll-smooth hover:scroll-auto px-0 md:px-6">
+      <div className="container mx-auto scroll-smooth hover:scroll-auto px-0 md:px-6">
       <div className="h-screen min-h-full flex flex-wrap">
         <div className="relative my-0 md:my-4 rounded-l-sm  relative flex-1 min-h-max bg-slate-50 dark:bg-[#20202a] h-full md:h-[95%]  w-full md:max-w-[290px]">
           <Content/>
