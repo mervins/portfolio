@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.51c64a6f.css",
-    "main.js": "/portfolio/static/js/main.de4dcb16.js",
+    "main.css": "/portfolio/static/css/main.303c8e2d.css",
+    "main.js": "/portfolio/static/js/main.6cdecd19.js",
     "static/js/787.f2a0fa2f.chunk.js": "/portfolio/static/js/787.f2a0fa2f.chunk.js",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.c21cc94bd6dffe8969d9.pdf",
     "static/media/profile.webp": "/portfolio/static/media/profile.3315b319282effdd21a7.webp",
@@ -19,12 +19,12 @@
     "static/media/laravel.webp": "/portfolio/static/media/laravel.91ccd989b1294283cdcd.webp",
     "static/media/flutter.png": "/portfolio/static/media/flutter.16f3f576ea0ad848e0d5.png",
     "index.html": "/portfolio/index.html",
-    "main.51c64a6f.css.map": "/portfolio/static/css/main.51c64a6f.css.map",
-    "main.de4dcb16.js.map": "/portfolio/static/js/main.de4dcb16.js.map",
+    "main.303c8e2d.css.map": "/portfolio/static/css/main.303c8e2d.css.map",
+    "main.6cdecd19.js.map": "/portfolio/static/js/main.6cdecd19.js.map",
     "787.f2a0fa2f.chunk.js.map": "/portfolio/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51c64a6f.css",
-    "static/js/main.de4dcb16.js"
+    "static/css/main.303c8e2d.css",
+    "static/js/main.6cdecd19.js"
   ]
 }
