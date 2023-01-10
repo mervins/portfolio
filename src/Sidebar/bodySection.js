@@ -25,14 +25,14 @@ const BodySection = ()=>{
                     })
                 }  
                 </div>
-                <div className='block md:hidden'> 
+                <div className='block md:hidden relative'> 
                     <div className='divide_line my-2'></div>
                     <AboutMe/>
                     <div className='divide_line my-2'></div>
                     <FrameworkSection/>
                     <div className='divide_line my-2'></div>
                     <ProjectSection/>
-                    <div className='divide_line my-2'></div>
+                    <div className='divide_line my-2 relative'></div>
                     <ExperienceSection/>
                 </div>
                 <div className='divide_line my-2'></div>

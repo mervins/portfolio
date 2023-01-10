@@ -86,7 +86,7 @@ export const  data = {
             percentage:"60"
         }, 
     ],
-    company_projects:[
+    personal_projects:[
         {
             id:0,
             title:'Tie-Mer',
@@ -108,35 +108,41 @@ export const  data = {
             declaim:'',
             img:pastil,
             stacks:["ReactJS", "CSS"]
+        }
+    ],
+    company_projects:[ 
+        {
+            id:3,
+            title:'Express',
+            description:'The app was constructed using Laravel Jetstream, with Vue.js as the frontend and Tailwind for the CSS framework.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:express,
+            stacks:["Laravel Jetstream","VueJS", "Tailwind"]
         },
-        // {
-        //     id:3,
-        //     title:'Express',
-        //     description:'The app was constructed using Laravel Jetstream, with Vue.js as the frontend and Tailwind for the CSS framework.',
-        //     declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
-        //     img:express,
-        // },
-        // {
-        //     id:4,
-        //     title:'Cost Tool',
-        //     description:'The app was built using Laravel with PHP on the server-side, and Vue on the client side for the frontend. Bootstrap was used as a CSS utility.',
-        //     declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
-        //     img:costTool,
-        // },
-        // {
-        //     id:5,
-        //     title:'Impulse',
-        //     description:'The app was built using Laravel with PHP on the server-side, and Vue on the client side for the frontend. Bootstrap was used as a CSS utility.',
-        //     declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
-        //     img:impulse,
-        // },
-        // {
-        //     id:6,
-        //     title:'Dr.Implicit',
-        //     description:'The app was developed using the Flutter framework.',
-        //     declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
-        //     img:implicit,
-        // }
+        {
+            id:4,
+            title:'Cost Tool',
+            description:'The app was built using Laravel with PHP on the server-side, and Vue on the client side for the frontend. Bootstrap was used as a CSS utility.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:costTool,
+            stacks:["Laravel","VueJS", "BootstrapVue"]
+        },
+        {
+            id:5,
+            title:'Impulse',
+            description:'The app was built using Laravel with PHP on the server-side, and Vue on the client side for the frontend. Bootstrap was used as a CSS utility.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:impulse,
+            stacks:["Laravel","VueJS", "BootstrapVue"]
+        },
+        {
+            id:6,
+            title:'Dr.Implicit',
+            description:'The app was developed using the Flutter framework.',
+            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+            img:implicit,
+            stacks:["Flutter"]
+        }
     ], 
     cascade:["Bootstrap","Tailwind","Git knowledge"],
     framwork:[
