@@ -56,7 +56,7 @@ const BannerSection = ()=>{
                               </svg> 
                           </div>
                       </a>
-                      <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out">
+                      <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out" onClick={onDownload3}>
                           <div className="inline-flex gap-2 w-full items-center">
                               <div>Download</div>
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
