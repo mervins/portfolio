@@ -18,12 +18,12 @@ export const  data = {
                 name:"Osmer Vinarao",
                 class:"text-[#1e1e28] dark:text-white text-lg mt-1"
             },
+            // {
+            //     name:"Full Stack",
+            //     class:"text-[#1e1e28] dark:text-white text-xs mt-2"
+            // },
             {
-                name:"Full Stack",
-                class:"text-[#1e1e28] dark:text-white text-xs mt-2"
-            },
-            {
-                name:"Software Developer,",
+                name:"Software Developer",
                 class:"text-[#1e1e28] dark:text-white text-xs"
             },
              
