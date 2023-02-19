@@ -135,14 +135,14 @@ export const  data = {
             img:impulse,
             stacks:["Laravel","VueJS", "BootstrapVue"]
         },
-        {
-            id:6,
-            title:'Dr.Implicit',
-            description:'The app was developed using the Flutter framework.',
-            declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
-            img:implicit,
-            stacks:["Flutter"]
-        }
+        // {
+        //     id:6,
+        //     title:'Dr.Implicit',
+        //     description:'The app was developed using the Flutter framework.',
+        //     declaim:'Disclaimer: The following project is being shared for demonstrative purposes only and does not belong to me. I am simply sharing my experience with the project for informational purposes only.',
+        //     img:implicit,
+        //     stacks:["Flutter"]
+        // }
     ], 
     cascade:["Bootstrap","Tailwind","Git knowledge"],
     framwork:[

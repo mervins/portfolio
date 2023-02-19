@@ -3,21 +3,21 @@ import { data } from "../data/info";
 import { useState } from "react";
 const ProjectSection = ()=>{
 
-    const [mainProject, showMainProject] = useState(true);
+    const [mainProject, showMainProject] = useState(false);
 
     return(<>
         <div className=' mt-8 rounded-lg p-2 bg-slate-50 text-[#1e1e28] dark:text-white dark:bg-zinc-900/20 w-full relative'>
                 
                 <div className="flex mb-4 sticky top-0 p-2 z-50 text-white bg-[#24242f]/90 dark:bg-[#24242f]/90 justify-between">
                     <div className="flex gap-4">
-                        <button onClick={()=>showMainProject(true)} className={mainProject ? 'border-b' : 'border-none'}>Company</button> 
+                        {/* <button onClick={()=>showMainProject(true)} className={mainProject ? 'border-b' : 'border-none'}>Company</button>  */}
                         <button onClick={()=>showMainProject(false)} className={!mainProject ? 'border-b' : 'border-none'}>Personal</button>
                     </div>
                     <div className='text-lg font-bold font-mono mb-0 md:mb-2 text-white pl-2 mb-2 text-xl flex justify-center'>Projects</div>
                 </div>
               {/* <Carousel/> */}
                 <div className="relative overflow-hidden">
-                    <div className={mainProject ? 'translate-x-0 duration-300 transition-all' : '-translate-x-[95vw] duration-300 transition-all'}>
+                    {/* <div className={mainProject ? 'translate-x-0 duration-300 transition-all' : '-translate-x-[95vw] duration-300 transition-all'}>
                         <div className='flex flex-col gap-2 justify-start md:justify-center flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar'>  
                             {
                             data.company_projects.map((item,index)=>{
@@ -56,8 +56,9 @@ const ProjectSection = ()=>{
                                 )}
                                 )}
                         </div>
-                    </div>
-                    <div className={mainProject ? 'translate-x-[95vw] absolute top-1 duration-300 transition-all' : 'translate-x-0 absolute top-1 duration-300 transition-all'}>
+                    </div> */}
+                    {/* <div className={mainProject ? 'translate-x-[95vw] absolute top-1 duration-300 transition-all' : 'translate-x-0 absolute top-1 duration-300 transition-all'}> */}
+                    <div>
                         <div className='flex flex-col gap-2 justify-start md:justify-center flex-unwrap md:flex-wrap overflow-x-auto no-scrollbar'>  
                             {
                             data.personal_projects.map((item,index)=>{
